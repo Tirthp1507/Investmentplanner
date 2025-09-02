@@ -2,3 +2,7 @@ streamlit
 pandas
 numpy
 plotly
+<<<<<<< HEAD
+=======
+xlsxwriter
+>>>>>>> 0c95fafad6b596d3d81680dc78511599b8e9c62d
