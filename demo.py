@@ -73,20 +73,20 @@ footer {visibility: hidden;}
 """, unsafe_allow_html=True)
 
 
-theme_mode = st.sidebar.radio("Theme Mode", ["Auto", "Light", "Dark"])
+# theme_mode = st.sidebar.radio("Theme Mode", ["Auto", "Light", "Dark"])
 
-st.markdown(f"""
-<script>
-var root = window.parent.document.documentElement;
-if ("{theme_mode}" === "Light") {{
-    root.setAttribute("data-theme", "light");
-}} else if ("{theme_mode}" === "Dark") {{
-    root.setAttribute("data-theme", "dark");
-}} else {{
-    root.removeAttribute("data-theme");
-}}
-</script>
-""", unsafe_allow_html=True)
+# st.markdown(f"""
+# <script>
+# var root = window.parent.document.documentElement;
+# if ("{theme_mode}" === "Light") {{
+#     root.setAttribute("data-theme", "light");
+# }} else if ("{theme_mode}" === "Dark") {{
+#     root.setAttribute("data-theme", "dark");
+# }} else {{
+#     root.removeAttribute("data-theme");
+# }}
+# </script>
+# """, unsafe_allow_html=True)
 
 
 # --------------------------
